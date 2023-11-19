@@ -37,6 +37,11 @@ import mcdonald from "./company/mcdonald.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import sb from "./sb2.png";
+import robots from "./robots.png";
+import portfolio from "./portfolio.png";
+import ecommerce from "./ecommerce.png";
+
 
 export {
   logo,
@@ -75,4 +80,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  sb,
+  portfolio,
+  ecommerce,
+  robots,
 };

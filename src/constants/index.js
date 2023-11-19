@@ -9,8 +9,6 @@ import {
     css,
     angular,
     postgresql,
-    pentest,
-    unrealengine,
     reactjs,
     redux,
     tailwind,
@@ -25,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    robots,
+    portfolio,
+    ecommerce,
+    sb,
   } from "../assets";
   
   export const navLinks = [
@@ -107,20 +109,12 @@ import {
       icon: git,
     },
     {
-      name: "unreal engine",
-      icon: unrealengine,
-    },
-    {
       name: "PostgreSQL",
       icon: postgresql,
     },
     {
       name: "Angular",
       icon: angular,
-    },
-    {
-      name: "Penetration Tester",
-      icon: pentest,
     },
   ];
   
@@ -208,67 +202,88 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ecommerce Book Shop",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, book, and manage ecommerce from various providers, providing a convenient and efficient solution for needs.",
       tags: [
         {
-          name: "react",
+          name: "Angular",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MySQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Bootstrap4",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: ecommerce,
+      source_code_link: "https://github.com/Cheongz/ecommerce-frontend",
     },
     {
-      name: "Job IT",
+      name: "Robots ",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search for choose robots.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Restapi",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Bootstrap4",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: robots,
+      source_code_link: "https://github.com/Cheongz/robofriends",
     },
     {
-      name: "Trip Guide",
+      name: "Smart Brain",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Web application that enables to users to detect pictures face using AI technologies API.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "NodeJS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Bootstrap4",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: sb,
+      source_code_link: "https://github.com/Cheongz/smart-brains-frontend",
+    },
+    {
+      name: "Portfolio",
+      description:
+        "Web application that created resume to easy apply job on online",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Bootstrap4",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/Cheongz/simplefolio",
     },
   ];
   
